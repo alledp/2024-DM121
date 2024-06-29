@@ -1,6 +1,7 @@
 p {
     text-align: justify;
     width: 500px;
+    margin: 0 auto;
     &::first-letter{
         color: red;
         font-size: 50px;
@@ -8,4 +9,16 @@ p {
         line-height: 40px;
         padding-right: 10px;
     }
+    &::first-line{
+        font-weight: bold;
+    }
+
+    &::selection{
+        color: black;
+        background-color: yellow;
+    }
+}
+
+p + p {
+    margin-top: 1000px;
 }
