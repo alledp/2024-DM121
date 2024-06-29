@@ -21,3 +21,13 @@ h1 {
 .lime {
     background-color: lime;
 }
+
+[href] {
+    border: none;
+    text-decoration: none;
+}
+
+[href]::before{
+    content: "⚠️";
+    font-size: 0.7rem;
+}
