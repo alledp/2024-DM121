@@ -1,0 +1,11 @@
+p {
+    text-align: justify;
+    width: 500px;
+    &::first-letter{
+        color: red;
+        font-size: 50px;
+        float: left;
+        line-height: 40px;
+        padding-right: 10px;
+    }
+}
