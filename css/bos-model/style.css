@@ -5,14 +5,17 @@
 .container {
     border: solid darkblue;
     border-width: var(--border-size);
-    & * {
+    div {
         border: solid red;
         border-width: var(--border-size);
     }
     /* .container div.item1 */
-    .item1{
+    & .item1{
         margin-top: 4px;
         margin-left: 4px;
+        * {
+            border: 2px dotted gray;
+        }
     }
     /* .container div.item2  */
     .item2{
