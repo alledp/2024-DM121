@@ -16,6 +16,9 @@
         * {
             border: 2px dotted gray;
         }
+    &:hover span {
+        background-color: rgb(137, 220, 209);
+    }
     }
     /* .container div.item2  */
     .item2{
