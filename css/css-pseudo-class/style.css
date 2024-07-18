@@ -29,8 +29,14 @@ p {
         background-color: blueviolet;
         display: block;
         opacity: 1;
+        pointer-events: none;
     }
 }
+
+/* #second_one{
+    transform: translateY(-100%);
+    z-index: 0;
+} */
 
 /* p + p {
     margin-top: 1000px;
