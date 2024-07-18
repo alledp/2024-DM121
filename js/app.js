@@ -31,8 +31,11 @@ console.log("😁" , xyz.name);
 
 //nameList.forEach(print);
 
+const toUpper = (text) => text.toUpperCase();
+
 //prettier.ignore
 nameList
     .sort()
     .reverse()
+    .map(toUpper)
     .forEach(fancyPrint);
