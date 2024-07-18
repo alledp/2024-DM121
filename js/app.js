@@ -22,7 +22,17 @@ function print(text){
     console.log(text);
 }
 
+function fancyPrint(text){
+    console.log(`>>>> ☠️ <<<<< ${text} >>>> ☠️ <<<<<`);
+}
+
 const xyz = print;
 console.log("😁" , xyz.name);
 
-nameList.forEach(print);
+//nameList.forEach(print);
+
+//prettier.ignore
+nameList
+    .sort()
+    .reverse()
+    .forEach(fancyPrint);
