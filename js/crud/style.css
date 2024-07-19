@@ -6,4 +6,13 @@ form{
     label{
         display: block;
     }
+
+}
+
+.name{
+    cursor: pointer;
+}
+
+.bin{
+    cursor: pointer;
 }
