@@ -5,6 +5,34 @@
         
 }
 
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    /* border-bottom: 2px solid black; */
+    margin-bottom: 0;
+
+    li{
+        border: 2px solid black;
+        border-bottom: 2px solid black;
+        + li{
+            border-left: none;
+        }
+    }
+    a{
+        padding: 5px;
+        display: inline-block;
+        text-decoration: none;
+
+        &:active{
+            color: white;
+            background-color: #174180;
+        }
+    }
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -33,6 +61,8 @@ header{
         color:#174180;
         font-style: italic;
       }
+
+    padding: 10px;
     margin-left: 10px;
 }
 
@@ -48,5 +78,9 @@ header{
 }
 
 .div_right{
+    h2{
+        margin-left: 10px;
+        color: #174180;
+    }
     background-color:white;
 }
