@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alled's Resume</title>
     <link rel="stylesheet" href="style.css">
+    <script src="app.js" type="module" defer> </script>
 </head>
 <body>
     
-
     <div class="grid-container" > <!-- Main Div -->
-
         <div class="div_left">
             <img src="images/Alled_linkedin.jpeg" width="90" class="center" alt="Alled Image">
             <header>
@@ -21,19 +20,32 @@
             <section id="contacts">
                 <ul>
                     <li> 💼 <a href="https://www.linkedin.com/in/alled-ghazale-41918857/"> LinkedIn </a>  </li>
-                    <li>📧 <a href="alledpaiva@gmail.com"> alledpaiva@gmail.com </a></li>
+                    <li>📧 alledpaiva@gmail.com </a></li>
                     <li>📱 +55 35 988453723</li>
-                    <li>📍 Santa Rita do Sapucaí - Br</li>
+                    <li>📍 Santa Rita do Sapucaí, MG-Brazil</li>
                 </ul>
             </section>
 
-            <p class="description">I am a experienced Technical Support Engineer with 6+ years of experience dealing with customers helping them to solve problems everyday.</p>
-            
+            <div class="description">
+                <p>I am a experienced Technical Support Engineer 
+                    who assists customers in resolving issues daily.
+                </p>
+                <p> Main qualifications:</p>
+                <p>+2 years working directly with customers, providing an outstanding customer support experience;</p>
+                <p>+4 years of professional experience in Huawei Core Network delivery team, delivering solutions to big telecommunications carriers and helping the support team with troubleshooting;</p>
+                <p>+3 years working with embedded linux systems from the system assembly to developing full applications in C, C++ and QtCreator;</p>
+                
+            </div>
             <section id="skills">
                 <h4>Skills:</h4>
                 <ul>
                     <li>Mobile Network</li>
+                    <li>LTE</li>
                     <li>Linux</li>
+                    <li>Network</li>
+                    <li>IPV4 - TCP/UDP</li>
+                    <li>AWS</li>
+                    <li>C, C++, C#</li>
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JS</li>
@@ -74,22 +86,22 @@
             <section>
                 <fieldset>
                     <legend> <h1> Contact Form </h1> </legend>
-                    <form id="formName" action="" onsubmit="return false" >
-                        <section> 
-                            <label for="name">Name</label>
+                    <form class="contactForm" id="contactForm" action="" onsubmit="return false" >
+                        <div> 
+                            <label for="name">Name:</label>
                             <input type="text" name="name" id="name" required autofocus>
-                        </section>
-                        <section> 
-                            <label for="name">Email</label>
-                            <input type="text" name="name" id="name" required >
-                        </section>
-                        <section> 
+                        </div>
+                        <div> 
+                            <label for="email">Email:</label>
+                            <input type="text" name="email" id="email" >
+                        </div>
+                        <div> 
                             <p> <label for="name">Message:</label> </p>
-                            <textarea id="textMessage" name="textMessage" rows="4" cols="50" required placeholder="Write down your message here."></textarea>
-                        </section>
-                        <section>
+                            <textarea id="textMessage" name="textMessage" rows="4" cols="50" placeholder="Write down your message here."></textarea>
+                        </div>
+                        <div>
                             <button type="submit"> Sent </button>
-                        </section>
+                        </div>
                     </form>
                 </fieldset>
             </section>

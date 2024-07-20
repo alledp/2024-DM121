@@ -2,7 +2,6 @@
 * {
     /* border: 1px solid red; */
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        
 }
 
 nav ul{
@@ -24,11 +23,10 @@ nav ul{
         padding: 5px;
         display: inline-block;
         text-decoration: none;
-
         &:active{
             color: white;
             background-color: #174180;
-        }
+        }   
     }
 }
 
@@ -49,6 +47,12 @@ header{
 }
 
 #skills{
+    h4{
+        font-weight: bold;
+    }
+    ul{
+        columns: 2;
+    }
     margin-left: 10px;
     margin-right: 10px;
     color:white;
@@ -72,12 +76,27 @@ header{
     a:link{
         color: white;
     }
+    a:visited{
+        color: white;
+        
+    }
     color: white;
+}
+
+.contactForm {
+    float: left;
+    width: 20px;
+    text-align:left;
+    vertical-align:text-bottom;
+    label{
+        margin-bottom: 100px;
+    }
 }
 
 .description{
     margin-left: 10px;
     color: white;
+    font-size:small;
 }
 
 .grid-container {
