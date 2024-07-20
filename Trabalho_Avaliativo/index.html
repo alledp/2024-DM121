@@ -4,41 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alled's Resume</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1> Alled Ghazale de Paiva - Telecommunication Engineer </h1>
-    </header>
-    <section id="projetos">
-        <h2>Projeto 1</h2>
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit qui quia, odio nisi, 
-            nulla quod ipsam voluptate fugiat dolorum non, distinctio culpa magnam 
-            omnis pariatur assumenda quibusdam hic asperiores?
-        </p>
-        <h2>Projeto 2</h2>
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit qui quia, odio nisi, 
-            nulla quod ipsam voluptate fugiat dolorum non, distinctio culpa magnam 
-            omnis pariatur assumenda quibusdam hic asperiores?
-        </p>
-        <h2>Projeto 3</h2>
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit qui quia, odio nisi, 
-            nulla quod ipsam voluptate fugiat dolorum non, distinctio culpa magnam 
-            omnis pariatur assumenda quibusdam hic asperiores?
-        </p>
-    </section>
-    <section id="habilities">
-        <h2>Habilidades:</h2>
-        <li>Habilidade 1</li>
-        <li>Habilidade 2</li>
-        <li>Habilidade 3</li>
-        <li>Habilidade 4</li>
-        <li>Habilidade 5</li>
-    </section>
-    <section>
+    
+
+    <div class="grid-container" > <!-- Main Div -->
         
-    </section>
+        <div class="div_left">
+            <img src="images/Alled_linkedin.jpeg" width="90" class="center" alt="Alled Image">
+            <header>
+                <h2>Alled Ghazale de Paiva</h2>
+                <h3>Telecommunication Engineer</h3>
+                <p>I am a experienced Technical Support Engineer with 6+ years of experience dealing with customers helping them to solve problems everyday.</p>
+            </header>
+
+            <section id="skills">
+                <h4>Skills:</h4>
+                <li>Mobile Network</li>
+                <li>Linux</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+            </section>
+        </div>
+
+        <div class="div_right">
+            <section id="projects">
+                <h2>Professional Background</h2>
+                <img src="images/FreedomFi-Logo.png" width="60" alt="FreedomFi Logo">
+                <h3> L3 Support Engineer</h3>
+                <p>
+                    Support in LTE/5G networking troubleshoot for the devices compatible with Helium Network, 
+                    finding bugs and giving feedback to the development team;
+                </p>
+                <img src="images/Delta-Logo.jpeg" width="60" alt="Delta Logo">
+                <h3> Product Manager</h3>
+                <p>
+                    Technical support to the Sales Department, 
+                    helping with the solution and products needed to each kind of market;
+                </p>
+                <img src="images/Huawei-Logo.png" width="60" alt="Huawei Logo">
+                <h3> Core Network Engineer</h3>
+                <p>
+                    Delivery and Service department, providing core newtork solutions to big 
+                    telephone carriers, such as Telefonica, Tim, and Nextel;
+                </p>
+            </section>
+            <section>
+                <fieldset>
+                    <legend> <h1> Contact Form </h1> </legend>
+                    <form id="formName" action="" onsubmit="return false" >
+                        <section> 
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" required autofocus>
+                        </section>
+                        <section> 
+                            <label for="name">Email</label>
+                            <input type="text" name="name" id="name" required >
+                        </section>
+                        <section> 
+                            <p> <label for="name">Message:</label> </p>
+                            <textarea id="textMessage" name="textMessage" rows="4" cols="50" required placeholder="Write down your message here."></textarea>
+                        </section>
+                        <section>
+                            <button type="submit"> Sent </button>
+                        </section>
+                    </form>
+                </fieldset>
+            </section>
+        </div>
+
+        <div>
+            
+        </div>
+        
+    </div>
 </body>
 </html>
