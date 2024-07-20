@@ -11,7 +11,6 @@ nav ul{
     display: flex;
     justify-content: center;
     margin-left: 10px;
-    /* border-bottom: 2px solid black; */
     margin-bottom: 0;
 
     li{
@@ -64,6 +63,21 @@ header{
 
     padding: 10px;
     margin-left: 10px;
+}
+
+#contacts{
+    ul{
+        list-style-type: none;
+    }
+    a:link{
+        color: white;
+    }
+    color: white;
+}
+
+.description{
+    margin-left: 10px;
+    color: white;
 }
 
 .grid-container {
